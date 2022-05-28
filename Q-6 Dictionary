@@ -1,12 +1,11 @@
-sample_dict = {
-    "name": "Kelly",
-    "age": 25,
-    "salary": 8000,
-    "city": "New york"
-}
+# Write a program in Python to remove repetitive items from a list.
 
-keys = ["name", "salary"]
-
-for k in keys:
-    sample_dict.pop(k)
-print(sample_dict)
+num=[2,3,4,5,2,6,3,2]
+x=[]
+for i in range(len(num)):
+    if num[i] not in x:
+      x append(num[i])
+    else:
+        pass
+print(x)        
+        
