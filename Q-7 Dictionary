@@ -1,10 +1,6 @@
-sampleDict = { 
-  "name": "Kelly",
-  "age":25, 
-  "salary": 8000, 
-  "city": "New york" }
+# Check if a value exists in a dictionary
 
-keys = ["name", "salary"]
-
-newDict = {k: sampleDict[k] for k in keys}
-print(newDict)
+sample_dict = {'a': 100, 'b': 200, 'c': 300}
+if 200 in sample_dict.values():
+    print('200 present in a dict')
+ Run
