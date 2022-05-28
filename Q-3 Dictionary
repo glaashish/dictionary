@@ -1,5 +1,15 @@
-keys = ['Ten', 'Twenty', 'Thirty']
-values = [10, 20, 30]
+# Print the value of key ‘history’ from the below #
 
-res_dict = dict(zip(keys, values))
-print(res_dict)
+sampleDict = {
+    "class": {
+        "student": {
+            "name": "Mike",
+            "marks": {
+                "physics": 70,
+                "history": 80
+            }
+        }
+    }
+}
+
+print(sampleDict['class']['student']['marks']['history'])
